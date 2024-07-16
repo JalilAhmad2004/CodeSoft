@@ -6,6 +6,7 @@ using namespace std;
 
 int main ()
 {
+    cout<<"Hello"<<endl;
     srand(time(0));   // Generating random numbers
     
     int random = rand() % 100;    // Numbers will be generated in between 0-100
